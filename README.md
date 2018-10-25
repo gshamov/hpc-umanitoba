@@ -30,6 +30,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 [_pages/2018-10-25-quick-start-guide.md](/_pages/2018-10-25-quick-start-guide)
 [2018-10-25-quick-start-guide](2018-10-25-quick-start-guide)
+[QS.md](QS.md)
 
 ### Jekyll Themes
 
