@@ -62,3 +62,18 @@ IMPORTANT: Please note that WestGrid will not retain any long term back-up copie
 
 WestGrid makes no guarantees that any file can be recovered, regardless of where a file is stored, even in backed up volumes. Accidents happen, whether caused by human error, hardware or software errors, natural disasters, or other. It is the user's responsibility that the data is protected against possible risks, as appropriate to the value of the data. Best efforts will be made to ensure reliability for all researcher data. WestGrid can give no guarantee regarding the security of data, although every effort is made to ensure data is not compromised.
 
+### Account Renewals
+-  Note: Users are required to register with the Compute Canada Database prior to receiving an account with WestGrid or any other regional consortia. More information on getting a CCDB account can be found here.
+Compute Canada account renewals happen annually during the spring. Renewals are done through the Compute Canada Database (CCDB), a national registry that allows Compute Canada and the regional organizations to manage and share information. Renewing your Compute Canada account will automatically renew your WestGrid Account (as of 2014, no separate renewal process for WestGrid is required).
+
+When it’s time to renew your account, you will be sent an e-mail giving further instructions on how to renew it online through the CCDB.
+
+The information you provide when renewing your account is valuable for our annual impact reports to the Canada Foundation for Innovation. Our ability to showcase the successful use of our resources builds an important case for long-term and sustainable funding of WestGrid and Compute Canada operations.
+
+For more details on what information is required to renew your account, please log in to the CCDB or contact accounts@computecanada.ca.
+### Account Expiry
+
+If no action is taken to renew your Compute Canada account by the renewal deadline date, your Compute Canada and WestGrid accounts will automatically expire and be deactivated. In this state, you will not be able to access your account or files, but the account and the files are not removed. There is a 90-day grace period during which you can still renew your account with the CCDB to regain access. If 90 days pass and there is no action, the account is automatically retired and the account and its files will be removed from Compute Canada and WestGrid’s systems.
+
+If you no longer need your WestGrid account, please notify us by contacting accounts@westgrid.ca.
+
