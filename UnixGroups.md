@@ -16,15 +16,14 @@ The group will be set up on all the WestGrid systems. This may take a day or two
 
 The directory you wish to share should be owned by the group and permitted to the group. For example:
 
-<code> chgrp -R wg-group <dir> </code>
-
-<code> chmod g+s <dir> </code> 
+<code> chgrp -R wg-group dir </code>
+<code> chmod g+s dir </code> 
 
 Note you must ensure that there is access to parent directories as well.
 
 A directory and all the files in it can be permitted to the group as follows.  Use
 
-<code> chmod -R g+rX /scratch/dirname </code>
+<code> chmod -R g+rX /scratch/dirname /code>
 
 to set access for the /scratch/dirname directory and all its subdirectories. Note the uppercase X in the command. This will set x permissions on the subdirectories (needed for others to list the directories) as well as regular execute permission on executable files.
 
@@ -34,9 +33,8 @@ If you want the to allow other members to not only read files in the shared dire
 
 to the .bashrc or .cshrc file in their respective home directories. Furthermore, you must add write permission to the shared directory itself:
 
-<code> chmod -R g+rwX <dir> </code>
+<code> chmod -R g+rwX dir </code>
 
 which would allow read and write access to the directory <dir> and all its files and subdirectories.
 
 Note: For orcinus, all members of wg-group who are not primary owners of shared directories have to issue 'newgrp  wg-group' command before accessing the shared directory.
-
