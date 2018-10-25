@@ -83,11 +83,8 @@ More detailed instructions for each of these steps can be found here: Registerin
 ### Notes
 
 When filling in our online forms, please keep the following points in mind:
-
-    You need to turn on cookies in your browser while you are using the application pages.  If you apply and do not hear back from us, it may be that we never received your application because you did not have cookies turned on.
-
-    Please direct any questions regarding the account application process to accounts@westgrid.ca.
-
+You need to turn on cookies in your browser while you are using the application pages.  If you apply and do not hear back from us, it may be that we never received your application because you did not have cookies turned on.
+Please direct any questions regarding the account application process to accounts@westgrid.ca.
 
 ### Account Renewals
 -  Note: Users are required to register with the Compute Canada Database prior to receiving an account with WestGrid or any other regional consortia. More information on getting a CCDB account can be found here.
