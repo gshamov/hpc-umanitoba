@@ -28,7 +28,7 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-[_pages/2018-10-25-quick-start-guide.md](/_pages/2018-10-25-quick-start-guide.md)
+[_pages/2018-10-25-quick-start-guide.md](/_pages/2018-10-25-quick-start-guide)
 
 ### Jekyll Themes
 
