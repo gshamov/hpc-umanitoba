@@ -62,6 +62,33 @@ IMPORTANT: Please note that WestGrid will not retain any long term back-up copie
 
 WestGrid makes no guarantees that any file can be recovered, regardless of where a file is stored, even in backed up volumes. Accidents happen, whether caused by human error, hardware or software errors, natural disasters, or other. It is the user's responsibility that the data is protected against possible risks, as appropriate to the value of the data. Best efforts will be made to ensure reliability for all researcher data. WestGrid can give no guarantee regarding the security of data, although every effort is made to ensure data is not compromised.
 
+## Account management
+
+The process of getting a WestGrid account consists of two key steps, which are outlined below.
+### Eligibility and Conditions of Use
+
+Before you apply for an account please read the Conditions of Use page which explains eligibility, permitted and non-permitted uses, and other requirements.  You might also like to read the Information for Prospective Users page.  If you have questions about your eligibility or the suitability of your project for running in the WestGrid environment, please contact us at support@westgrid.ca before applying for a WestGrid account.
+
+### Method
+
+Applying for an account is a two-part process:
+
+- Register with Compute Canada 
+  You will first need to register for an account in the Compute Canada DataBase (CCDB). This can be done online and usually takes 2-3 business days for approvals to be processed.
+
+- Apply for a WestGrid account
+  Once your CCDB registration has been approved, you can log in to open a WestGrid account to begin using WestGrid's resources.
+
+More detailed instructions for each of these steps can be found here: Registering with CCDB and WestGrid
+### Notes
+
+When filling in our online forms, please keep the following points in mind:
+
+    You need to turn on cookies in your browser while you are using the application pages.  If you apply and do not hear back from us, it may be that we never received your application because you did not have cookies turned on.
+
+    Please direct any questions regarding the account application process to accounts@westgrid.ca.
+
+
 ### Account Renewals
 -  Note: Users are required to register with the Compute Canada Database prior to receiving an account with WestGrid or any other regional consortia. More information on getting a CCDB account can be found here.
 Compute Canada account renewals happen annually during the spring. Renewals are done through the Compute Canada Database (CCDB), a national registry that allows Compute Canada and the regional organizations to manage and share information. Renewing your Compute Canada account will automatically renew your WestGrid Account (as of 2014, no separate renewal process for WestGrid is required).
