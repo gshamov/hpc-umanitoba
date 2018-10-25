@@ -8,10 +8,10 @@ Any Compute Canada user can access modest quantities of compute, storage and clo
 WestGrid facilities are designated for Canadian researchers or those collaborating on Canadian research projects. In general, any academic researcher from a Canadian research institution with significant high performance computing requirements to support his or her research may apply for an account on WestGrid.
 Faculty members and senior researchers at a Canadian university or research facility are eligible once registered in the CCDB. Graduate Students and Postdoctoral Fellows are eligible but must be sponsored by a faculty member, who must register in the CCDB first.
 
-#Permitted Uses
+## Permitted Uses
 TODO: Westgrid is irrelevant
 
-##Conditions of Use
+## Conditions of Use
 ### Responsible Use of Westgrid facilities
 A user of WestGrid facilities must agree to abide by the following conditions:
 
