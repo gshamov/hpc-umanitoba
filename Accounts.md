@@ -43,11 +43,14 @@ Archives
 An archive is a file stored on tape that is being kept for possible future use. If an archive is created from a file that resides on disk on a WestGrid system, it is expected that that file will be deleted from the disk after archiving. If an archive is created from a file on a non-WestGrid system, no assumptions are made about whether the file has been removed or not at the source.
 An archive is stored for a specified period of time, selected at the time of creation (typically in the range of years, e.g. until the end of the WestGrid project unless the archive is needed only for a shorter period of time). After that period of time, the archive is deleted. There are no long-term/ongoing plans to operate or keep archive tapes forever. For example, the WestGrid site at the UofS would attempt to keep archives past the termination of the WestGrid project on a best-efforts basis and depending on future operational funding.
 The WestGrid project is funded by a series of grants, each approximately 5 years. There is no guarantee that WestGrid will continue past the current grant, just an expectation that it will. In the event that WestGrid is no longer able to archive your data following the completion of the project users will be given an opportunity to retrieve their data. Users must request that files be archived; users cannot do this themselves.
-==== Ownership of data
+
+====Ownership of data
 If there is disagreement between a project leader and a user about the ownership of a user's files, WestGrid will consult the legal policies of the project leader's home Institution as well as the Institution(s) hosting the equipment on which the data is stored.  In the past, it has been WestGrid's experience that the policies of the project leader's home Institution have been used to resolve such disagreements. WestGrid advises researchers to review the appropriate institutional policies regarding ownership of data and privacy.
+
 ==== Retention of data
 
 All data will be deleted from a user’s directories once their WestGrid account has been retired (this occurs 90 days after the account has been deactivated).  See the User Accounts pages for more information about the deactivation process. Some data may remain on backup tapes for a period of time. Any recovery of the user's data after account retirement is strictly on a best-effort basis with no guarantee of success.
+
 ==== Data Retention Policy for Defunded Systems
 
 - The policy for all systems which will be defunded is to notify users (via any/all of the following methods: newsletter, email, website, MOTD, user docs wiki) at least 90 days before the date data may be deleted. 
@@ -57,5 +60,6 @@ All data will be deleted from a user’s directories once their WestGrid account
 
 IMPORTANT: Please note that WestGrid will not retain any long term back-up copies of user data. Users should ensure they take the appropriate steps to comply with any data management requirements their institution or project may require.
 ==== Risks of Data Loss
+
 WestGrid makes no guarantees that any file can be recovered, regardless of where a file is stored, even in backed up volumes. Accidents happen, whether caused by human error, hardware or software errors, natural disasters, or other. It is the user's responsibility that the data is protected against possible risks, as appropriate to the value of the data. Best efforts will be made to ensure reliability for all researcher data. WestGrid can give no guarantee regarding the security of data, although every effort is made to ensure data is not compromised.
 
