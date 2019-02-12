@@ -22,7 +22,7 @@ Finally, for graphical mode it is possible to use VNC remote desktop connections
 
 ## Interactive work
 
-The login nodes of Grex can be used to compile code and to run (very) short interactive and/or test runs. All the production jobs should be sumbitted in the batch mode, using our Torque resource management system. It is recommended to run longer interactive workloads as Torque interactive jobs (by using **qsub -I** command) rather than on the login nodes;  a few nodes are reserved for the interactive  jobs.
+The login nodes of Grex can be used to compile code and to run (very) short interactive and/or test runs. All the production jobs should be sumbitted in the batch mode, using our Torque resource management system. It is recommended to run longer interactive workloads as Torque interactive jobs (by using **qsub -I** command) rather than on the login nodes;  a few nodes are reserved for the interactive jobs.
 
 ## Batch job policies
 
