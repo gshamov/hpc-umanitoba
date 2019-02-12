@@ -2,29 +2,27 @@
 
 ## Intended purpose and usage of system
 
-IMPORTANT: This system is defunded since March 31, 2018. Since April 2, 2018 Grex is available only to the users affiliated with UManitoba. Visit the WestGrid Migration page for more information.
-
-Grex is primarily intended for applications that can take advantage of non-blocking low latency InfiniBand networks and large memory per compute node. Grex is a general-use system so no special access requests required for registered WestGrid users.
+Grex is a legacy system, fist put in production in early 2011. It was primarily intended for applications that can take advantage of non-blocking low latency InfiniBand networks and large memory per compute node. Since April 2, 2018 Grex is available only to the users affiliated with UManitoba.
 
 Grex is a Latin for herd (or flock?).
 
 ## Access Conditions
 
-As of the moment of writing (May 2018), there are three conditions for the access: an active [CCDB](https://ccdb.computecanada.ca) account; Westgrid consortium acount enabled in CCDB; and an active CCDB role affiliated with UManitoba.
+As of the moment, Grex is using the legacy Westgrid account management system affiliated with ComputeCanada user database (CCDB). Thus there are three technical conditions for the access: an active [CCDB](https://ccdb.computecanada.ca) account; Westgrid consortium acount enabled in CCDB ( [there, chose Westgrid](https://ccdb.computecanada.ca/me/facilities) ); and finally an active CCDB role affiliated with UManitoba. 
 
 ## Connecting and logging in
 
-To log in to Grex in the text mode, connect to **grex.westgrid.ca** using an **SSH** (secure shell) client. The DNS name grex.westgrid.ca serves as an alias for two login nodes: bison.westgrid.ca, tatanka.westgrid.ca
+To log in to Grex in the text mode, connect to **grex.westgrid.ca** using an **SSH** (secure shell) client. The DNS name grex.westgrid.ca serves as an alias for two login nodes: **bison.westgrid.ca** and **tatanka.westgrid.ca** .
 
-Uploading and downloading your data can be done using an **SCP/SFTP** capable file transfer client. The recommended clients are OpenSSH (providing ssh and scp, sftp command on Linux, MacOS X) and PuTTY/WinSCP/X-Ming (Windows). Another alternative for Windows is a shareware code Mobaxterm. Note that since Jun 1, 2014 the original "SSH Secure Shell" Windows SSH/SFTP client is not supported anymore.
+Uploading and downloading your data can be done using an **SCP/SFTP** capable file transfer client. The recommended clients are OpenSSH (providing **ssh** and **scp**, **sftp** command line tools on Linux and MacOS X) and PuTTY/WinSCP/X-Ming or MobaXterm (Windows). Note that since Jun 1, 2014 the original "SSH Secure Shell" Windows SSH/SFTP client is not supported anymore.
 
-Since Dec. 2015, support is provided for graphical mode connection to Grex using **X2go** remote desktop client that are available for Windows, MacOS X and Windows on the X2Go website . When creting a new Session, please select either **"GNOME"** or **"IceWM"** as the desktop environment in "Session type" X2go menu, as this is the one that is available on Grex and seem to work best. The same Westgrid login/password should be used as for SSH text based connections. For now, there is no load balancing support for connections, so while connecting to the host address  grex.westgrid.ca  will work, session resuming might require specifying connection to a physical Grex login node explicitly, using  tatanka.westgrid.ca  or  bison.westgrid.ca correspondingly.
+Since Dec. 2015, support is provided for the graphical mode connection to Grex using **X2go** . [X2go](https://wiki.x2go.org/doku.php/download:start) remote desktop clients  are available for Windows, MacOS X and Windows . When creting a new Session, please chose either of the supported desktop environment, **"GNOME"** or **"IceWM"**  in the "Session type" menu. The same Westgrid login/password should be used as for SSH text based connections. For now, there is no load balancing support for connections, so while connecting to the host address  grex.westgrid.ca  will work, session suspend/resume functionality might require specifying connection to a physical Grex login node explicitly, using  tatanka.westgrid.ca  or  bison.westgrid.ca correspondingly.
 
 Finally, for graphical mode it is possible to use VNC remote desktop connections to Grex by tunneling them through SSH. After connecting by SSH usual way, do **module load vncworkspace** command on Grex and follow the instructions on how to use the conveninet vncworkspace wrapper over TigerVNC startup commands.
 
-## Interactive job
+## Interactive work
 
-The login nodes can be used to compile code and to run very short interactive and/or test runs. All the production jobs should be sumbitted through Torque. It is recommended to run interactive workload as Torque jobs as well (by using **qsub -I** command); there are a few nodes reserved for such jobs.
+The login nodes of Grex can be used to compile code and to run (very) short interactive and/or test runs. All the production jobs should be sumbitted in the batch mode, using our Torque resource management system. It is recommended to run longer interactive workloads as Torque interactive jobs (by using **qsub -I** command) rather than on the login nodes;  a few nodes are reserved for the interactive  jobs.
 
 ## Batch job policies
 
