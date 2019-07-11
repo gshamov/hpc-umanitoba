@@ -1,3 +1,3 @@
-#Storage
+# Storage
 ## Storage kinds
 ## Storage policies
